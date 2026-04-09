@@ -9,7 +9,7 @@
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 
   &.expanded {
-    width: 520px;
+    width: min(520px, 90vw);
   }
 }
 
