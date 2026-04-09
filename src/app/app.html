@@ -1,0 +1,23 @@
+<div class="demo-container">
+  <h1>Popover → Modal Demo</h1>
+  <p class="subtitle">Click any row to see the popover. Then expand it to a full modal.</p>
+
+  <table class="data-table">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Role</th>
+        <th>Department</th>
+      </tr>
+    </thead>
+    <tbody>
+      @for (person of people; track person.id; let i = $index) {
+        <tr #row class="data-row" (click)="onRowClick(person, i)">
+          <td>{{ person.name }}</td>
+          <td>{{ person.role }}</td>
+          <td>{{ person.department }}</td>
+        </tr>
+      }
+    </tbody>
+  </table>
+</div>
