@@ -2,7 +2,7 @@
 
 A minimal Angular demo showing how to smoothly transition a **popover** (anchored to a trigger element) into a **centered modal** — and back — using a single CDK Overlay instance.
 
-[**Live Demo on StackBlitz →**](https://stackblitz.com/github/vinceang/popover-modal-demo)
+[**Live Demo →**](https://popover-modal-demo.vercel.app/)
 
 ![Angular](https://img.shields.io/badge/Angular-21-dd0031?logo=angular)
 ![CDK Overlay](https://img.shields.io/badge/CDK-Overlay-3f51b5)
